@@ -183,6 +183,7 @@ border: none ;
     display: flex;
     margin-top: 94px;
     justify-content: center;
+    margin-bottom: 56px;
 }
 
 .order-button:focus,
@@ -193,7 +194,9 @@ border: none ;
 .all-team-members{
 display: flex;
 gap: 30px;
-margin-left: 215px;
+padding-left: 215px;
+padding-right: 215px;
+text-align: center;
 }
 
 .studio{
@@ -291,6 +294,10 @@ font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
+width: 322px;
+height: 36px;
+margin-top: 20px;
+margin-bottom: 4px;
 }
 
 .choise-name{
@@ -299,6 +306,9 @@ font-weight: 400;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
+width: 322px;
+height: 30px;
+margin-bottom: 20px;
 }
 
 body{
@@ -350,6 +360,8 @@ margin-left: 215px;
     line-height: 19px;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    margin-bottom: 10px;
+
 }
 
 .team-member-profesion{
@@ -358,6 +370,8 @@ margin-left: 215px;
     line-height: 19px;
     letter-spacing: 0.03em;
     color: var(--little-text-color);
+    margin-bottom: 30px;
+
 }
 
 .backround-two{
@@ -434,4 +448,14 @@ margin: auto;
     .emal-two:focus{
         color: var(--enother-text-color);
         font-family: 'Roboto', sans-serif;
+    }
+
+    .all-images-two{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 30px;
+        padding-left: 215px;
+        padding-right: 215px;
+        padding-bottom: 94px;
     }
