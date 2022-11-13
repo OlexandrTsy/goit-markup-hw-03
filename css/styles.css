@@ -386,7 +386,7 @@ margin: auto;
     text-decoration: none;
     font-style: normal;
     margin-bottom: 9px;
-    margin-top: 20px;
+    line-height: 24px;
 }
 
 .adress:hover,
@@ -409,15 +409,13 @@ margin: auto;
 .studio-two{
     color: var(--big-text-color);
     text-decoration: none;
-    
+    margin-bottom: 20px;
     }
 
     .adress-two{
         list-style: none;
         justify-content: flex-start;
         margin-left: 215px;
-        margin-bottom: 9px;
-    margin-top: 20px;
     }
 
     .team-background{
@@ -428,13 +426,14 @@ margin: auto;
         color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-style: normal;
-    padding-bottom: 60px;
+    margin-bottom: 9px;
     }
 
     .emal-two{
         color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-style: normal;
+    padding-bottom: 60px;
     }
 
 
