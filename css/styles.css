@@ -179,13 +179,10 @@ border: none ;
 }
 
 .menu-buttons{
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
+    gap: 8px;
     display: flex;
-    margin-left: 535px;
-    margin-right: 537px;
     margin-top: 94px;
+    justify-content: center;
 }
 
 .order-button:focus,
@@ -194,10 +191,9 @@ border: none ;
 }
 
 .all-team-members{
-    list-style: none;
-    align-items: center;
-justify-content: space-between;
 display: flex;
+gap: 30px;
+margin-left: 215px;
 }
 
 .studio{
@@ -228,7 +224,7 @@ font-family: Raleway, sans-serif;
 font-size: 14px;
 line-height: 24px;
 align-items: center;
-justify-content: space-between;
+justify-content: center;
 display: flex;
 margin-right: 30px;
 }
@@ -333,10 +329,9 @@ padding-top: 94px;
 }
 
 .images-all{
-    align-items: center;
-justify-content: space-between;
 display: flex;
-margin-right: 30px;
+gap: 30px;
+margin-left: 215px;
 }
 
 .images{
@@ -367,12 +362,17 @@ margin-right: 30px;
 
 .backround-two{
     background: var(--backround-text-color);
+    width: 1700px;
+height: 252px;
+margin: auto;
 }
 
 .adress{
     color: var(--big-text-color);
     text-decoration: none;
     font-style: normal;
+    margin-bottom: 9px;
+    margin-top: 20px;
 }
 
 .adress:hover,
@@ -388,15 +388,22 @@ margin-right: 30px;
     color: var(--enother-text-color);
     text-decoration: none;
     font-family: Raleway, sans-serif;
+    margin-left: 215px;
+    padding-top: 60px ;
     }
 
 .studio-two{
     color: var(--big-text-color);
     text-decoration: none;
+    
     }
 
     .adress-two{
         list-style: none;
+        justify-content: flex-start;
+        margin-left: 215px;
+        margin-bottom: 9px;
+    margin-top: 20px;
     }
 
     .team-background{
@@ -407,6 +414,7 @@ margin-right: 30px;
         color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-style: normal;
+    padding-bottom: 60px;
     }
 
     .emal-two{
