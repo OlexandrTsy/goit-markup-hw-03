@@ -169,7 +169,6 @@ height: 120px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    align-items: center;
     text-align: center;
     background: var(--enother-text-color);
     width: 216px;
@@ -224,6 +223,7 @@ letter-spacing: 0.03em;
 color: var(--enother-text-color);
 text-decoration: none;
 font-family: Raleway, sans-serif;
+padding-left: 215px;
 }
 
 .images-all{
@@ -430,7 +430,7 @@ margin: auto;
     .adress-two{
         list-style: none;
         justify-content: flex-start;
-        margin-left: 215px;
+        padding-left: 215px;
         margin-bottom: 9px;
     }
 
