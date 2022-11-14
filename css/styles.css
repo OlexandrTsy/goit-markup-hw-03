@@ -14,7 +14,7 @@
 }
 
 .container-first{
-    width: 1600px;
+    width: 1700px;
     height: 80px;
     padding-right: 15px;
     padding-left: 15px;
@@ -201,9 +201,9 @@ border: none ;
 .all-team-members{
 display: flex;
 gap: 30px;
-padding-left: 215px;
-padding-right: 215px;
 text-align: center;
+align-items: center;
+padding-left: 300px;
 }
 
 .studio{
