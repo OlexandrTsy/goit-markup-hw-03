@@ -34,7 +34,6 @@ align-items: center;
 .site-links{
     justify-content: space-between;
     display: flex;
-
 }
 
 .studio-link{
@@ -147,6 +146,7 @@ width: 1700px;
 height: 600px;
 background: var(--backround-text-color);
 margin: auto;
+display: block;
 }
 
 .effective-choise{
@@ -161,7 +161,6 @@ margin: auto;
     padding-right: 452px ;
     width: 696px;
 height: 120px;
-text-align: center;
 }
 
 .order-button{
@@ -289,6 +288,7 @@ cursor: pointer;
 font-family: inherit;
 border-radius: 4px;
 border: none;
+list-style: none;
 }
 
 .menu-button:focus,
@@ -404,6 +404,9 @@ margin: auto;
     color: var(--enother-text-color);
 }
 
+.footer-item{
+    margin-bottom: 9px;
+}
 .logo-two{
     font-weight: 700;
     font-size: 26px;
@@ -412,9 +415,10 @@ margin: auto;
     color: var(--enother-text-color);
     text-decoration: none;
     font-family: Raleway, sans-serif;
-    margin-left: 215px;
-    padding-top: 60px ;
-    
+    margin-top: 10px;
+    padding-left: 215px;
+    margin-bottom: 20px;
+    letter-spacing: 0.03em;
     }
 
 .studio-two{
@@ -427,6 +431,13 @@ margin: auto;
         list-style: none;
         justify-content: flex-start;
         margin-left: 215px;
+        margin-bottom: 9px;
+    }
+
+    .footer-links{
+        margin: 0 auto ;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
     .team-background{
@@ -437,7 +448,6 @@ margin: auto;
         color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-style: normal;
-    margin-bottom: 9px;
     }
 
     .emal-two{
@@ -445,6 +455,9 @@ margin: auto;
     text-decoration: none;
     font-style: normal;
     padding-bottom: 60px;
+    margin-top: 9px;
+    font-weight: 400;
+    line-height: 1.7;
     }
 
 
@@ -468,4 +481,17 @@ margin: auto;
         padding-left: 215px;
         padding-right: 215px;
         padding-bottom: 94px;
+    }
+
+    .visually-hidden{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
     }
