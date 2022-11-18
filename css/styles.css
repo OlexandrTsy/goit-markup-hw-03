@@ -8,7 +8,7 @@
 }
 
 .container{
-    width: 1700px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     align-items: center;
@@ -106,7 +106,6 @@ align-items: center;
 
 .contact-links-two{
     display: flex;
-    margin-left: 344px;
 }
 
 .phone{
@@ -140,13 +139,9 @@ margin-left: 50px;
 }
 
 .backround-first{
-left: 0px;
-top: 80px;
-width: 1700px;
-height: 600px;
 background: var(--backround-text-color);
-margin: auto;
-display: block;
+padding-top: 200px ;
+padding-bottom: 280px ;
 }
 
 .effective-choise{
@@ -155,10 +150,6 @@ display: block;
     font-size: 44px;
     line-height: 60px;
     text-transform: uppercase;
-    padding-top: 200px ;
-    padding-bottom: 280px ;
-    padding-left: 452px ;
-    padding-right: 452px ;
     width: 696px;
 height: 120px;
 }
@@ -231,13 +222,14 @@ padding-left: 215px;
 }
 
 .benefits{
-    font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-align-items: center;
-justify-content: center;
 display: flex;
-margin-right: 30px;
+gap: 30px;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .members{
@@ -246,26 +238,15 @@ margin-right: 30px;
 }
 
 .benefit-text{
-    font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
     color: var(--little-text-color);
-    margin-right: 30px ;
-    width: 270px;
-height: 48px;
-margin-bottom: 118px;
 }
 
 .benefit-headers{
-    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+    line-height: 16;
     color: var(--primary-text-color);
     width: 270px;
-height: 16px;
-margin-top: 94px;
 }
 
 .our-benefits{
