@@ -5,14 +5,13 @@
 --big-text-color :#FFFFFF;
 --backround-text-color:#2F303A;
 --buttons-bg-color: #F5F4FA;
+--border-color: #F5F5F5;
 }
 
 .container{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    align-items: center;
-    text-align: center;
 }
 
 .container-first{
@@ -34,6 +33,7 @@ align-items: center;
 .site-links{
     justify-content: space-between;
     display: flex;
+    gap: 50;
 }
 
 .studio-link{
@@ -89,6 +89,7 @@ align-items: center;
     margin-right: 50px;
     font-weight: 500;
     line-height: 16.41px;
+    margin-right: 354px;
 
 }
 
@@ -106,6 +107,9 @@ align-items: center;
 
 .contact-links-two{
     display: flex;
+    margin: auto;
+    margin-left: auto;
+    flex-direction: row;
 }
 
 .phone{
@@ -115,7 +119,7 @@ font-size: 14px;
 line-height: 16px;
 text-decoration: none;
 font-style: normal;
-margin-right: auto;
+margin-right: 40px;
 }
 
 .phone:focus,
@@ -130,7 +134,8 @@ font-size: 14px;
 line-height: 16px;
 text-decoration: none;
 font-style: normal;
-margin-left: 50px;
+padding-left: 215px;
+margin: auto;
 }
 
 .emal:focus,
@@ -179,7 +184,6 @@ border: none ;
 .menu-buttons{
     gap: 8px;
     display: flex;
-    margin-top: 94px;
     justify-content: center;
     margin-bottom: 56px;
 }
@@ -230,11 +234,15 @@ gap: 30px;
     list-style: none;
     padding: 0;
     margin: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .members{
     margin-top: 50px;
-    margin-bottom: 94px;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .benefit-text{
@@ -242,9 +250,14 @@ gap: 30px;
     color: var(--little-text-color);
 }
 
+.hero{
+    padding-top: 30px ;
+    padding-bottom: 30px ;
+}
+
 .benefit-headers{
     font-size: 14px;
-    line-height: 16;
+    line-height: 16px;
     color: var(--primary-text-color);
     width: 270px;
 }
@@ -284,9 +297,6 @@ font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
-width: 322px;
-height: 36px;
-margin-top: 20px;
 margin-bottom: 4px;
 }
 
@@ -332,17 +342,14 @@ padding-top: 94px;
 .images-all{
 display: flex;
 gap: 30px;
-margin-left: 215px;
+padding-left: 215px ;
+padding-right: 215px;
 }
 
 .images{
-    width: 370px;
-    height: 294px;
-    left: 215px;
-    top: 1058px;
-    margin-right: 30px;
-    margin-top: 50px ;
-    margin-bottom: 94px ;
+    padding-bottom: 94px;
+    padding-top: 50px;
+    
 }
 
 .team-member{
@@ -367,9 +374,7 @@ margin-left: 215px;
 
 .backround-two{
     background: var(--backround-text-color);
-    width: 1700px;
-height: 252px;
-margin: auto;
+    padding: 60px 0 ;
 }
 
 .adress{
@@ -385,21 +390,22 @@ margin: auto;
     color: var(--enother-text-color);
 }
 
-.footer-item{
+.footer-item:not(:last-child){
     margin-bottom: 9px;
 }
 .logo-two{
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 31;
     letter-spacing: 0.03em;
     color: var(--enother-text-color);
     text-decoration: none;
     font-family: Raleway, sans-serif;
-    margin-top: 10px;
-    padding-left: 215px;
     margin-bottom: 20px;
-    letter-spacing: 0.03em;
+    }
+
+    .hero-one{
+        border-bottom: var(--border-color);
     }
 
 .studio-two{
@@ -410,9 +416,7 @@ margin: auto;
 
     .adress-two{
         list-style: none;
-        justify-content: flex-start;
-        padding-left: 215px;
-        margin-bottom: 9px;
+        
     }
 
     .footer-links{
@@ -457,11 +461,14 @@ margin: auto;
     .all-images-two{
         display: flex;
         flex-wrap: wrap;
-        list-style: none;
         gap: 30px;
-        padding-left: 215px;
-        padding-right: 215px;
-        padding-bottom: 94px;
+    }
+
+    .herp-three{
+        padding: 24px ;
+        border-left: ;
+        border-right: ;
+        border-bottom: ;
     }
 
     .visually-hidden{
