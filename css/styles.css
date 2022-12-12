@@ -185,7 +185,7 @@ border: none ;
     gap: 8px;
     display: flex;
     justify-content: center;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
 }
 
 .order-button:focus,
@@ -344,6 +344,7 @@ display: flex;
 gap: 30px;
 padding-left: 215px ;
 padding-right: 215px;
+
 }
 
 .images{
@@ -381,7 +382,6 @@ padding-right: 215px;
     color: var(--big-text-color);
     text-decoration: none;
     font-style: normal;
-    margin-bottom: 9px;
     line-height: 24px;
 }
 
@@ -397,7 +397,6 @@ padding-right: 215px;
     font-weight: 700;
     font-size: 26px;
     line-height: 31;
-    letter-spacing: 0.03em;
     color: var(--enother-text-color);
     text-decoration: none;
     font-family: Raleway, sans-serif;
@@ -466,9 +465,9 @@ padding-right: 215px;
 
     .herp-three{
         padding: 24px ;
-        border-left: ;
-        border-right: ;
-        border-bottom: ;
+        border-left: 3px ;
+        border-right: 3px ;
+        border-bottom: 3px ;
     }
 
     .visually-hidden{
