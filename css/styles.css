@@ -6,6 +6,8 @@
 --backround-text-color:#2E2F42;
 --buttons-bg-color: #F5F4FA;
 --border-color: #F5F5F5;
+--buttons-bg-color-new: #404BBF;
+--new-buttons-bg-color: #E7E9FC;
 }
 
 .container{
@@ -211,9 +213,9 @@ text-decoration: none;
 }
 
 .logo{
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
 letter-spacing: 0.03em;
 color: var(--enother-text-color);
 text-decoration: none;
@@ -256,8 +258,8 @@ gap: 30px;
 }
 
 .benefit-headers{
-    font-size: 14px;
-    line-height: 16px;
+font-size: 20px;
+line-height: 24px;
     color: var(--primary-text-color);
     width: 270px;
 }
@@ -276,8 +278,8 @@ letter-spacing: 0.03em;
     font-weight: 500;
 font-size: 16px;
 line-height: 26px;
-color: var(--primary-text-color);
-background: var(--buttons-bg-color);
+color: var(--enother-text-color);
+background: var(--new-buttons-bg-color);
 cursor: pointer;
 font-family: inherit;
 border-radius: 4px;
@@ -287,8 +289,8 @@ list-style: none;
 
 .menu-button:focus,
 .menu-button:hover{
-background: var(--enother-text-color);
-color: var(--buttons-bg-color);
+background: var(--buttons-bg-color-new) ;
+color:var(--big-text-color);
 }
 
 .choise{
@@ -394,9 +396,9 @@ padding-right: 215px;
     margin-bottom: 9px;
 }
 .logo-two{
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
     color: var(--enother-text-color);
     text-decoration: none;
     font-family: Raleway, sans-serif;
