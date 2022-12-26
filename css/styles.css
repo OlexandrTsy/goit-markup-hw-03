@@ -184,10 +184,10 @@ border: none ;
 }
 
 .menu-buttons{
-    gap: 8px;
+    gap: 24px;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 72px;
 }
 
 .order-button:focus,
@@ -236,8 +236,8 @@ gap: 30px;
     list-style: none;
     padding: 0;
     margin: 0;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .members{
@@ -256,6 +256,7 @@ gap: 30px;
     padding-top: 30px ;
     padding-bottom: 30px ;
 }
+
 
 .benefit-headers{
 font-size: 20px;
@@ -350,8 +351,9 @@ padding-right: 215px;
 }
 
 .images{
-    padding-bottom: 94px;
-    padding-top: 50px;
+    padding-bottom: 120px;
+    padding-top: 72px;
+    gap: 24px;
     
 }
 
@@ -392,8 +394,9 @@ padding-right: 215px;
     color: var(--enother-text-color);
 }
 
-.footer-item:not(:last-child){
-    margin-bottom: 9px;
+.footer-item{
+    margin-bottom: 100px;
+    margin-top: 16px;
 }
 .logo-two{
     font-weight: 800;
@@ -402,7 +405,7 @@ padding-right: 215px;
     color: var(--enother-text-color);
     text-decoration: none;
     font-family: Raleway, sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     }
 
     .hero-one{
@@ -412,7 +415,7 @@ padding-right: 215px;
 .studio-two{
     color: var(--big-text-color);
     text-decoration: none;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     }
 
     .adress-two{
@@ -462,7 +465,8 @@ padding-right: 215px;
     .all-images-two{
         display: flex;
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 24px;
+    
     }
 
     .herp-three{
