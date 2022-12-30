@@ -1,11 +1,13 @@
 :root{
 --primary-text-color: #212121;
 --enother-text-color: #4D5AE5; 
---little-text-color: #757575;
+--little-text-color: #434455;
 --big-text-color :#FFFFFF;
 --backround-text-color:#2E2F42;
 --buttons-bg-color: #F5F4FA;
 --border-color: #F5F5F5;
+--buttons-bg-color-new: #404BBF;
+--new-buttons-bg-color: #E7E9FC;
 }
 
 .container{
@@ -33,7 +35,7 @@ align-items: center;
 .site-links{
     justify-content: space-between;
     display: flex;
-    gap: 50;
+    gap: 40;
 }
 
 .studio-link{
@@ -43,7 +45,7 @@ align-items: center;
     color: var(--primary-text-color);
     text-decoration: none;
     font-style: normal;
-    margin-right: 50px;
+    margin-right: 76px;
     font-weight: 500;
     line-height: 16.41px;
 }
@@ -110,6 +112,7 @@ align-items: center;
     margin: auto;
     margin-left: auto;
     flex-direction: row;
+    gap: 40;
 }
 
 .phone{
@@ -119,7 +122,7 @@ font-size: 14px;
 line-height: 16px;
 text-decoration: none;
 font-style: normal;
-display: flex;
+margin-right: 40px;
 }
 
 .phone:focus,
@@ -134,8 +137,8 @@ font-size: 14px;
 line-height: 16px;
 text-decoration: none;
 font-style: normal;
-padding-left: 215px;
 margin: auto;
+padding-right: 156px;
 }
 
 .emal:focus,
@@ -157,6 +160,8 @@ padding-bottom: 280px ;
     text-transform: uppercase;
     width: 696px;
 height: 120px;
+margin-bottom: 48px;
+margin-top: 188px;
 }
 
 .order-button{
@@ -171,6 +176,7 @@ height: 120px;
 height: 50px;
 border-radius: 4px;
 border: none ;
+margin-bottom: 188px;
 }
 
 .button-one{
@@ -182,11 +188,10 @@ border: none ;
 }
 
 .menu-buttons{
-    gap: 8px;
+    gap: 24px;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    
 }
 
 .order-button:focus,
@@ -196,10 +201,10 @@ border: none ;
 
 .all-team-members{
 display: flex;
-gap: 30px;
+gap: 24px;
 text-align: center;
 align-items: center;
-padding-left: 300px;
+padding-left: 156px;
 }
 
 .studio{
@@ -212,14 +217,14 @@ text-decoration: none;
 }
 
 .logo{
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
 letter-spacing: 0.03em;
 color: var(--enother-text-color);
 text-decoration: none;
 font-family: Raleway, sans-serif;
-padding-left: 215px;
+padding-left: 156px;
 }
 
 .images-all{
@@ -228,19 +233,19 @@ padding-left: 215px;
 
 .benefits{
 display: flex;
-gap: 30px;
+gap: 24px;
 }
 
 .list{
     list-style: none;
     padding: 0;
     margin: 0;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .members{
-    margin-top: 50px;
+    margin-top: 72px;
     display: block;
     max-width: 100%;
     height: auto;
@@ -249,6 +254,7 @@ gap: 30px;
 .benefit-text{
     line-height: 24px;
     color: var(--little-text-color);
+    padding-bottom: 120px;
 }
 
 .hero{
@@ -258,11 +264,14 @@ gap: 30px;
     margi
 }
 
+
 .benefit-headers{
-    font-size: 14px;
-    line-height: 16px;
+font-size: 20px;
+line-height: 24px;
     color: var(--primary-text-color);
     width: 270px;
+    margin-bottom: 8px;
+    padding-top: 120px;
 }
 
 .our-benefits{
@@ -279,8 +288,8 @@ letter-spacing: 0.03em;
     font-weight: 500;
 font-size: 16px;
 line-height: 26px;
-color: var(--primary-text-color);
-background: var(--buttons-bg-color);
+color: var(--enother-text-color);
+background: var(--new-buttons-bg-color);
 cursor: pointer;
 font-family: inherit;
 border-radius: 4px;
@@ -290,8 +299,8 @@ list-style: none;
 
 .menu-button:focus,
 .menu-button:hover{
-background: var(--enother-text-color);
-color: var(--buttons-bg-color);
+background: var(--buttons-bg-color-new) ;
+color:var(--big-text-color);
 }
 
 .choise{
@@ -351,8 +360,9 @@ padding-right: 215px;
 }
 
 .images{
-    padding-bottom: 94px;
-    padding-top: 50px;
+    padding-bottom: 120px;
+    padding-top: 72px;
+    gap: 24px;
     
 }
 
@@ -372,13 +382,13 @@ padding-right: 215px;
     line-height: 19px;
     letter-spacing: 0.03em;
     color: var(--little-text-color);
-    margin-bottom: 30px;
+    margin-bottom: 120px;
 
 }
 
 .backround-two{
     background: var(--backround-text-color);
-
+    padding: 60px 0 ;
 }
 
 .adress{
@@ -393,16 +403,18 @@ padding-right: 215px;
     color: var(--enother-text-color);
 }
 
-.footer-item:not(:last-child){
-    margin-bottom: 9px;
+.footer-item{
+    margin-bottom: 100px;
+    margin-top: 16px;
 }
 .logo-two{
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
     color: var(--enother-text-color);
     text-decoration: none;
     font-family: Raleway, sans-serif;
+    margin-bottom: 20px;
     }
 
     .hero-one{
@@ -412,7 +424,7 @@ padding-right: 215px;
 .studio-two{
     color: var(--big-text-color);
     text-decoration: none;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     }
 
     .adress-two{
@@ -433,7 +445,8 @@ padding-right: 215px;
     .all-images-two{
         display: flex;
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 24px;
+    
     }
 
     .herp-three{
