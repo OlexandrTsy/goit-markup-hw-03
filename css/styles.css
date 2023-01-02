@@ -91,7 +91,7 @@ align-items: center;
     margin-right: 50px;
     font-weight: 500;
     line-height: 16.41px;
-    margin-right: 354px;
+
 
 }
 
@@ -112,7 +112,7 @@ align-items: center;
     margin: auto;
     margin-left: auto;
     flex-direction: row;
-    gap: 40;
+    justify-content: flex-end;
 }
 
 .phone{
@@ -122,7 +122,7 @@ font-size: 14px;
 line-height: 16px;
 text-decoration: none;
 font-style: normal;
-
+padding-top: 24px;
 }
 
 .phone:focus,
@@ -138,6 +138,7 @@ line-height: 16px;
 text-decoration: none;
 font-style: normal;
 margin-right: 40px;
+padding-top: 24px;
 }
 
 .emal:focus,
@@ -349,14 +350,13 @@ padding-top: 120px;
     .images-all{
     display: flex;
     align-items: center;
-    
+    padding-bottom: 120px;
+    padding-top: 72px;
+    padding-left: 156px;
     }
 
 .images{
-    padding-bottom: 120px;
-    padding-top: 72px;
     gap: 24px;
-    padding-left: 156px;
 }
 
 .members{
@@ -406,25 +406,11 @@ padding-top: 120px;
     margin-bottom: 100px;
     margin-top: 16px;
 }
-.logo-two{
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    color: var(--enother-text-color);
-    text-decoration: none;
-    font-family: Raleway, sans-serif;
-    margin-top: 100px;
-    }
 
     .hero-one{
         border-bottom: var(--border-color);
     }
 
-.studio-two{
-    color: var(--big-text-color);
-    text-decoration: none;
-    margin-top: 100px;
-    }
 
     .adress-two{
         list-style: none;
@@ -445,7 +431,7 @@ padding-top: 120px;
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
-    
+    display: block;
     }
 
     .herp-three{
@@ -468,6 +454,22 @@ padding-top: 120px;
         overflow: hidden;
     }
 
+    .logo-two{
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        color: var(--enother-text-color);
+        text-decoration: none;
+        font-family: Raleway, sans-serif;
+        margin-top: 100px;
+        }
+
+        .studio-two{
+        color: var(--big-text-color);
+        text-decoration: none;
+        margin-top: 100px;
+        }
+
     .footer-item{
     font-weight: 400;
 font-size: 16px;
@@ -476,4 +478,6 @@ letter-spacing: 0.02em;
 color: var(--new-buttons-bg-color);
 margin-top: 16px;
 margin-bottom: 100px;
+font-family: "Roboto";
+font-style: normal;
     }
