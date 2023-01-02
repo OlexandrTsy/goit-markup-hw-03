@@ -147,8 +147,7 @@ margin-right: 40px;
 
 .backround-first{
 background: var(--backround-text-color);
-padding-top: 200px ;
-padding-bottom: 280px ;
+height: 600px;
 }
 
 .effective-choise{
@@ -198,14 +197,6 @@ margin-bottom: 188px;
     background: var(--little-text-color);
 }
 
-.all-team-members{
-display: flex;
-gap: 24px;
-text-align: center;
-align-items: center;
-padding-left: 156px;
-}
-
 .studio{
 color: var(--primary-text-color);
 text-decoration: none;
@@ -233,6 +224,7 @@ padding-left: 156px;
 .benefits{
 display: flex;
 gap: 24px;
+padding-top: 120px;
 }
 
 .list{
@@ -243,17 +235,11 @@ gap: 24px;
     padding-bottom: 120px;
 }
 
-.members{
-    margin-top: 72px;
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
 
 .benefit-text{
     line-height: 24px;
     color: var(--little-text-color);
-    padding-bottom: 120px;
+
 }
 
 .hero{
@@ -270,7 +256,6 @@ gap: 24px;
     color: var(--primary-text-color);
     width: 270px;
     margin-bottom: 8px;
-    padding-top: 120px;
 }
 
 .our-benefits{
@@ -337,7 +322,7 @@ font-size: 36px;
 line-height: 42px;
 letter-spacing: 0.03em;
 text-align: center;
-padding-top: 94px;
+padding-top: 120px;
 }
 
 .what-we-doing{
@@ -347,28 +332,42 @@ padding-top: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    padding-top: 120px;
+}
+
+
+.all-team-members{
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     
-}
+    }
+    
 
-.images-all{
-display: flex;
-gap: 30px;
-padding-left: 215px ;
-padding-right: 215px;
-
-}
+    .images-all{
+    display: flex;
+    align-items: center;
+    
+    }
 
 .images{
     padding-bottom: 120px;
     padding-top: 72px;
     gap: 24px;
-    
+    padding-left: 156px;
+}
+
+.members{
+    margin-top: 72px;
+    display: block;
 }
 
 .team-member{
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 20px;
+    line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     margin-bottom: 10px;
@@ -378,16 +377,17 @@ padding-right: 215px;
 .team-member-profesion{
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--little-text-color);
-    margin-bottom: 120px;
+    margin-bottom: 32px;
 
 }
 
 .backround-two{
     background: var(--backround-text-color);
     padding: 60px 0 ;
+    height: 310px;
 }
 
 .adress{
@@ -409,11 +409,11 @@ padding-right: 215px;
 .logo-two{
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 21px;
     color: var(--enother-text-color);
     text-decoration: none;
     font-family: Raleway, sans-serif;
-    margin-bottom: 20px;
+    margin-top: 100px;
     }
 
     .hero-one{
@@ -423,7 +423,7 @@ padding-right: 215px;
 .studio-two{
     color: var(--big-text-color);
     text-decoration: none;
-    margin-bottom: 16px;
+    margin-top: 100px;
     }
 
     .adress-two{
@@ -469,5 +469,11 @@ padding-right: 215px;
     }
 
     .footer-item{
-    padding-bottom: 100px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--new-buttons-bg-color);
+margin-top: 16px;
+margin-bottom: 100px;
     }
