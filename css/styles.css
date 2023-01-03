@@ -362,6 +362,7 @@ padding-top: 120px;
 .members{
     margin-top: 72px;
     display: block;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-member{
@@ -431,7 +432,11 @@ padding-top: 120px;
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
-    display: block;
+    
+    }
+
+    .portfolio-img{
+        justify-content: center;
     }
 
     .herp-three{
