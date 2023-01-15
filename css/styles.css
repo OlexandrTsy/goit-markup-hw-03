@@ -16,6 +16,9 @@
     padding-right: 15px;
 }
 
+.border{
+    border-bottom: 1px solid #E7E9FC;
+}
 .container-first{
     width: 1700px;
     height: 80px;
@@ -245,9 +248,8 @@ padding-top: 120px;
 
 .hero{
     padding-top: 30px ;
-    padding-bottom: 60px ;
     background-color: var(--big-text-color);
-    margi
+    
 }
 
 
@@ -343,7 +345,6 @@ padding-top: 120px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    
     }
     
 
@@ -352,7 +353,8 @@ padding-top: 120px;
     align-items: center;
     padding-bottom: 120px;
     padding-top: 72px;
-    padding-left: 156px;
+    padding-left: 300px;
+    gap: 24px;
     }
 
 .images{
@@ -406,6 +408,7 @@ padding-top: 120px;
 .footer-item{
     margin-bottom: 100px;
     margin-top: 16px;
+    margin-right: 156px;
 }
 
     .hero-one{
@@ -432,11 +435,13 @@ padding-top: 120px;
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
-    
+        padding: 0;
+        list-style: none;
+        box-sizing: border-box;
     }
 
     .portfolio-img{
-        justify-content: center;
+        border: 1px solid #E7E9FC;
     }
 
     .herp-three{
@@ -467,6 +472,7 @@ padding-top: 120px;
         text-decoration: none;
         font-family: Raleway, sans-serif;
         margin-top: 100px;
+        margin-right: 156px;
         }
 
         .studio-two{
@@ -485,5 +491,5 @@ margin-top: 16px;
 margin-bottom: 100px;
 font-family: "Roboto";
 font-style: normal;
-width: 264px;
+width: 264px; 
     }
