@@ -389,7 +389,6 @@ padding-top: 120px;
 
 .backround-two{
     background: var(--backround-text-color);
-    padding: 60px 0 ;
     height: 310px;
 }
 
@@ -408,7 +407,7 @@ padding-top: 120px;
 .footer-item{
     margin-bottom: 100px;
     margin-top: 16px;
-    margin-right: 156px;
+    margin-left: 156px;
 }
 
     .hero-one{
@@ -471,14 +470,12 @@ padding-top: 120px;
         color: var(--enother-text-color);
         text-decoration: none;
         font-family: Raleway, sans-serif;
-        margin-top: 100px;
-        margin-right: 156px;
+        margin-left: 156px;
         }
 
         .studio-two{
         color: var(--big-text-color);
         text-decoration: none;
-        margin-top: 100px;
         }
 
     .footer-item{
