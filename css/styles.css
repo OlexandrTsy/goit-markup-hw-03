@@ -112,7 +112,6 @@ align-items: center;
 
 .contact-links-two{
     display: flex;
-    margin: auto;
     margin-left: auto;
     flex-direction: row;
     justify-content: flex-end;
@@ -390,6 +389,7 @@ padding-top: 120px;
 .backround-two{
     background: var(--backround-text-color);
     height: 310px;
+    padding: 60px 0;
 }
 
 .adress{
@@ -434,9 +434,9 @@ padding-top: 120px;
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
-        padding: 0;
         list-style: none;
         box-sizing: border-box;
+        padding-left: 156px ;
     }
 
     .portfolio-img{
