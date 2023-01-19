@@ -14,6 +14,7 @@
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
 }
 
 .border{
@@ -217,7 +218,6 @@ letter-spacing: 0.03em;
 color: var(--enother-text-color);
 text-decoration: none;
 font-family: Raleway, sans-serif;
-padding-left: 156px;
 }
 
 .images-all{
@@ -287,26 +287,6 @@ list-style: none;
 .menu-button:hover{
 background: var(--buttons-bg-color-new) ;
 color:var(--big-text-color);
-}
-
-.choise{
-color: var(--primary-text-color);
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-margin-bottom: 4px;
-}
-
-.choise-name{
-color: var(--little-text-color);
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-width: 322px;
-height: 30px;
-margin-bottom: 20px;
 }
 
 body{
@@ -433,22 +413,45 @@ padding-top: 120px;
     .all-images-two{
         display: flex;
         flex-wrap: wrap;
-        gap: 24px;
-        list-style: none;
-        box-sizing: border-box;
-        padding-left: 156px ;
+        column-gap: 24px;
+        row-gap: 48px;
     }
 
     .portfolio-img{
         border: 1px solid #E7E9FC;
+        flex-basis: calc((100 - 48px) / 3);
     }
 
-    .herp-three{
-        padding: 24px ;
-        border-left: 3px ;
-        border-right: 3px ;
-        border-bottom: 3px ;
+    .under-img-text{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        background-color: #FFFFFF;
+        border: 1px solid #E7E9FC;
+        box-shadow: 0px 1px 6px rgba( 46; 47; 66; 0.08);
+        border-top: none;
+        padding-left: 16px;
     }
+
+    .choise{
+        color: var(--primary-text-color);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.06em;
+        margin-bottom: 8px;
+        }
+        
+        .choise-name{
+        color: var(--little-text-color);
+        font-weight: 400;
+        font-size: inherit;
+        line-height: 1.5;
+        letter-spacing: inherit;
+        width: 322px;
+        height: 30px;
+        margin-bottom: 20px;
+        }
+        
 
     .visually-hidden{
         position: absolute;
